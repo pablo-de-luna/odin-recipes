@@ -1,8 +1,7 @@
 html {box-sizing: border-box;}
 
 body {
-    background: rgb(144, 25, 25);
-    color: whitesmoke;
+    background: rgb(234, 231, 219);
     margin: 0 auto;
     width: 600px;
     font-family: Tahoma, Verdana, sans-serif;
@@ -12,12 +11,13 @@ h1, h2 {
     font-size: 2em;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(124, 77, 59);
 }
 
 #home-title {
-    font-size: 3.5em;
+    font-size: 5em;
     margin-top: 25vh;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 li {
@@ -30,12 +30,17 @@ li {
     padding: 0;
 }
 
-.link-list li button, .style-button {
-    width: 250px;
+.link-list li button {
+    margin-bottom: 15px;
+    width: 550px;
     height: 70px;
-    color: rgb(250, 233, 147);
-    background: rgb(144, 25, 25);
-    font-size: 1.5em;
+    color: rgb(124, 77, 59);
+    background: rgb(248, 245, 235);
+    font-size: 1.8em;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border: none;
+}
+
+.text-box {
+    background: rgb(248, 245, 235);
 }
