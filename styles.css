@@ -90,3 +90,8 @@ h1 {
     width: auto;
     text-align: justify;
 }
+
+.two-columns {
+    column-count: 2;
+    column-gap: 50px;
+}
