@@ -14,19 +14,18 @@ body {
     width: auto;
     height: 50px;
     font-size: 1.5em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border: none;
-    text-align: right;
 }
 
 .home-button {
     text-align: right;
-    margin:auto;
+    margin: auto;
 }
 
 button {
     color: rgb(124, 77, 59);
     background: rgb(255, 254, 249);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
 }
 
 button:hover {
@@ -45,8 +44,6 @@ button:hover {
     width: 550px;
     height: 70px;
     font-size: 1.8em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border: none;
 }
 
 h1, h2 {
@@ -54,9 +51,7 @@ h1, h2 {
     color: rgb(119, 102, 96);
 }
 
-.subtitle {
-    background: rgb(255, 254, 249);
-}
+.subtitle {background: rgb(255, 254, 249);}
 
 h2 {
     font-size: 2em;
@@ -94,7 +89,7 @@ h1 {
     height: 300px;
 }
 
-h2,
+.subtitle,
 .border-round,
 .recipe-button a button,
 .home-button a button
@@ -107,7 +102,10 @@ h2,
     margin: -30px auto 20px;
     width: auto;
     text-align: justify;
+    line-height: 1.3em;
 }
+
+li {margin-bottom: 10px;}
 
 .two-columns {
     column-count: 2;
