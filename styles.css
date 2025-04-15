@@ -8,13 +8,43 @@ body {
     font-family: Tahoma, Verdana, sans-serif;
 }
 
-.home-button {
-    margin: 70px auto 40px;
-    width: 800px;
+.home-button a button {
+    margin: 0 auto 20px 0;
+    padding: 10px 40px;
+    width: auto;
     height: 50px;
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    text-align: right;
+}
+
+.home-button {
+    text-align: right;
+    margin:auto;
+}
+
+button {
     color: rgb(124, 77, 59);
     background: rgb(255, 254, 249);
-    font-size: 1.5em;
+}
+
+button:hover {
+    background: rgb(119, 102, 96);
+    color: rgb(255, 254, 249);
+    transition: all .3s ease;
+}
+
+.recipe-button {
+    text-align: center;
+    padding: 0;
+}
+
+.recipe-button button {
+    margin-bottom: 15px;
+    width: 550px;
+    height: 70px;
+    font-size: 1.8em;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border: none;
 }
@@ -44,7 +74,7 @@ h1 {
 .title-recipe {
     text-align: left;
     font-size: 4.5em;
-    margin: auto 0 auto 30px;
+    margin: 40px 0 auto 50px;
 }
 
 #home-title {
@@ -59,33 +89,21 @@ h1 {
 
 .presentation {
     display: flex;
-    margin: 0 auto 40px;
+    margin: 80px auto -45px;
     width: 800px;
     height: 300px;
 }
 
-.border-round, h2, .home-button
+h2,
+.border-round,
+.recipe-button a button,
+.home-button a button
 {border-radius: 10px;}
 
-.link-list {
-    text-align: center;
-    padding: 0;
-}
-
-.link-list button {
-    margin-bottom: 15px;
-    width: 550px;
-    height: 70px;
-    color: rgb(124, 77, 59);
-    background: rgb(255, 254, 249);
-    font-size: 1.8em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border: none;
-}
 
 .text-card {
     background: rgb(255, 254, 249);
-    padding: 35px 30px 30px;
+    padding: 35px 80px 30px;
     margin: -30px auto 20px;
     width: auto;
     text-align: justify;
