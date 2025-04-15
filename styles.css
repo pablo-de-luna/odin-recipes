@@ -4,19 +4,35 @@ body {
     background: rgb(234, 231, 219);
     margin: 0 auto;
     width: 70vw;
+    font-size: medium;
     font-family: Tahoma, Verdana, sans-serif;
+}
+
+.home-button {
+    margin: 70px auto 40px;
+    width: 70vw;
+    height: 50px;
+    color: rgb(124, 77, 59);
+    background: rgb(255, 254, 249);
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
 }
 
 h1, h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(119, 102, 96);
 }
+.subtitle {
+    background: rgb(255, 254, 249);
+}
 
 h2 {
     font-size: 2em;
-    margin: 0 0 0 100px;
-    width: 500px;
+    margin: 0 auto 0 0;
+    width: auto;
     text-align: left;
+    padding: 20px 50px;
 }
 
 h1 {
@@ -28,7 +44,7 @@ h1 {
     background: rgb(255, 254, 249);
     text-align: left;
     padding: 30px;
-    margin: auto 0 auto -50px;
+    width: 70vw;
     height: 100px;
     font-size: 3em;
 }
@@ -41,18 +57,20 @@ h1 {
 .img-dish {
     width: 400px;
     height: 300px;
+    margin-right: -150px;
 }
 
 .presentation {
     display: inline-flex;
-    margin: 100px auto 40px;
-    width: 800px;
+    margin: 0 auto 40px;
+    width: 70vw;
     height: 300px;
 }
 
 li {list-style: none;}
 
-.border-round, .title-rec {border-radius: 10px;}
+.border-round, .title-rec, h2, .home-button
+{border-radius: 10px;}
 
 .link-list {
     text-align: center;
@@ -72,8 +90,8 @@ li {list-style: none;}
 
 .text-box {
     background: rgb(255, 254, 249);
-    padding: 35px 30px 20px;
-    margin: -20px auto 20px;
+    padding: 35px 30px 30px;
+    margin: -30px auto 20px;
 }
 
 .two-column {
