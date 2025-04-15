@@ -1,7 +1,7 @@
 html {box-sizing: border-box;}
 
 body {
-    background: rgb(234, 231, 219);
+    background: rgb(244, 242, 237);
     margin: 0 auto;
     width: 70vw;
     font-size: medium;
@@ -92,9 +92,4 @@ li {list-style: none;}
     background: rgb(255, 254, 249);
     padding: 35px 30px 30px;
     margin: -30px auto 20px;
-}
-
-.two-column {
-    column-count: 2;
-    column-gap: 20px;
 }
