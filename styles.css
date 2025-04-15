@@ -61,13 +61,11 @@ h1 {
 }
 
 .presentation {
-    display: inline-flex;
+    display: flex;
     margin: 0 auto 40px;
     width: 70vw;
     height: 300px;
 }
-
-li {list-style: none;}
 
 .border-round, .title-rec, h2, .home-button
 {border-radius: 10px;}
@@ -77,7 +75,7 @@ li {list-style: none;}
     padding: 0;
 }
 
-.link-list li button {
+.link-list button {
     margin-bottom: 15px;
     width: 550px;
     height: 70px;
@@ -93,3 +91,7 @@ li {list-style: none;}
     padding: 35px 30px 30px;
     margin: -30px auto 20px;
 }
+
+span {
+    display: flex;
+}    
