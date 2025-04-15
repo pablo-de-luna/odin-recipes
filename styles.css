@@ -3,14 +3,14 @@ html {box-sizing: border-box;}
 body {
     background: rgb(244, 242, 237);
     margin: 0 auto;
-    width: 70vw;
+    width: 800px;
     font-size: medium;
     font-family: Tahoma, Verdana, sans-serif;
 }
 
 .home-button {
     margin: 70px auto 40px;
-    width: 70vw;
+    width: 800px;
     height: 50px;
     color: rgb(124, 77, 59);
     background: rgb(255, 254, 249);
@@ -23,6 +23,7 @@ h1, h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(119, 102, 96);
 }
+
 .subtitle {
     background: rgb(255, 254, 249);
 }
@@ -40,13 +41,10 @@ h1 {
     font-size: 4.5em;
 }
 
-.title-rec{
-    background: rgb(255, 254, 249);
+.title-recipe {
     text-align: left;
-    padding: 30px;
-    width: 70vw;
-    height: 100px;
-    font-size: 3em;
+    font-size: 4.5em;
+    margin: auto 0 auto 30px;
 }
 
 #home-title {
@@ -57,17 +55,16 @@ h1 {
 .img-dish {
     width: 400px;
     height: 300px;
-    margin-right: -150px;
 }
 
 .presentation {
     display: flex;
     margin: 0 auto 40px;
-    width: 70vw;
+    width: 800px;
     height: 300px;
 }
 
-.border-round, .title-rec, h2, .home-button
+.border-round, h2, .home-button
 {border-radius: 10px;}
 
 .link-list {
@@ -86,12 +83,16 @@ h1 {
     border: none;
 }
 
-.text-box {
+.text-card {
     background: rgb(255, 254, 249);
     padding: 35px 30px 30px;
     margin: -30px auto 20px;
+    width: auto;
 }
 
-span {
-    display: flex;
-}    
+.description-card {
+    margin-right: 20px;
+    width: 450px;
+}
+
+span {display: flex;}    
